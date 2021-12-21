@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is about cats, what they love love and hate and how they want to be taken care of.">
+  <meta name="keywords" content="cats, what cats love, what cats hate">
+  <meta name="author" content="Chinasaokwu Obasi">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat PhotoApp</title>
+</head>
+
+<body>
+  <header>
+    <h1>Cat PhotoApp</h1>
+  </header>
+
+  <main>
+    <section>
+
+      <h2>Cat Photos</h2>
+      <table>
+
+        <tr>
+          <td>
+            <a href="#"><img src="./cat-pic1.jpg" alt="A cute white, brown dotted cat lying on it's back, with head raised high."></a>
+          </td>
+          <td>
+            <p>click here to view more <a href="#" target="_blank">cat photos</a>.</p>
+          </td>
+        </tr>
+    </table>
+    </section>
+    <hr>
+
+    <section class="lists">
+
+      <h3>Cat Lists</h3>
+      <p>Things cats <em>love</em>:</p>
+      <ul>
+        <li>Cat nip</li>
+        <li>Laser pointer</li>
+        <li>Lasagna</li>
+      </ul>
+      <br><br><br>
+
+      <div class="lasagna" align="center">
+        <img src="./lasagna.jpg" alt="Lasagna">
+      </div>
+      <br><br>
+      <hr>
+
+      <p>Things cats <strong>hate</strong>:</p>
+      <ol>
+        <li>Flea treatment</li>
+        <li>Thunder</li>
+        <li>Other cats</li>
+      </ol>
+      <br><br><br>
+
+      <div class="cats" align="center">
+        <img src="cats.jpg" alt="Cats">
+      </div>
+      <br><br>
+      <hr>
+    </section>
+    <br>
+    <section>
+      <div class="survey-about-cat" align="center">
+        <h3>Let's meet your cat</h3>
+      </div>
+      <p>Please fill out this form, we like to know your cat better.</p>
+      <form class="" action="/submit-cat-photo" method="post">
+        Does your cat like to socialise?
+        <p>
+          <label for="indoor">
+            <input id="indoor" type="radio" name="indoor-outdoor" value="Indoor">Indoor
+          </label>
+          <label for="outdoor">
+            <input id="outdoor" type="radio" name="indoor-outdoor" value="Outdoor">Outdoor
+          </label>
+        </p>
+        <p>What is your cat's personality?</p>
+        <label for="loving">
+          <input id="loving" type="checkbox" name="personality" value="Loving">Loving
+        </label> <br>
+        <label for="lazy">
+          <input id="lazy" type="checkbox" name="personality" value="Lazy">Lazy
+        </label><br>
+        <label for="energetic">
+          <input id="energetic" type="checkbox" name="personality" value="Energetic">Energetic
+        </label>
+        <br><br>
+        <input type="text" name="" value="" placeholder="enter cat photo URL" required>
+        <br><br>
+        <button type="submit" name="button">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><small>&copy; Chinasa's <a href="https://chinasaokwu-anda.github.io/cv-styled/">Projects</a>: with ❤ from Yenagoa, Nigeria.</small></p>
+  </footer>
+
+</body>
+</html>
